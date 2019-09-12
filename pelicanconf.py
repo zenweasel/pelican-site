@@ -9,6 +9,7 @@ SITEURL = ''
 PATH = 'content'
 
 TIMEZONE = 'Asia/Manila'
+# THEME = '/home/brent/Projects/py/pelican-themes/Flex'
 
 DEFAULT_LANG = 'en'
 
@@ -20,14 +21,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (("Home", "/"),
+#          ("Articles", "category/articles.html"),
+#          ('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Twitter', 'https://twitter.com/mrbrenthoover'),)
 
 DEFAULT_PAGINATION = 10
 
